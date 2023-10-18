@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A49031A92AE01EBF00D3AD82 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A49031A82AE01EBF00D3AD82 /* main.cpp */; };
+		A49031B32AE0201700D3AD82 /* ImageProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A49031B12AE0201700D3AD82 /* ImageProcessor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,12 @@
 /* Begin PBXFileReference section */
 		A49031A52AE01EBF00D3AD82 /* Operators LRS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Operators LRS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49031A82AE01EBF00D3AD82 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A49031AF2AE01F5900D3AD82 /* stb_image_write.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
+		A49031B02AE01FDB00D3AD82 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		A49031B12AE0201700D3AD82 /* ImageProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImageProcessor.cpp; sourceTree = "<group>"; };
+		A49031B22AE0201700D3AD82 /* ImageProcessor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessor.hpp; sourceTree = "<group>"; };
+		A49031B52AE027AC00D3AD82 /* input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = input.png; path = "Operators LRS/Images/input.png"; sourceTree = SOURCE_ROOT; };
+		A49031B72AE02AA200D3AD82 /* input2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +64,31 @@
 		A49031A72AE01EBF00D3AD82 /* Operators LRS */ = {
 			isa = PBXGroup;
 			children = (
+				A49031B82AE02B6E00D3AD82 /* Output images */,
+				A49031B42AE0278F00D3AD82 /* Images */,
 				A49031A82AE01EBF00D3AD82 /* main.cpp */,
+				A49031AF2AE01F5900D3AD82 /* stb_image_write.h */,
+				A49031B02AE01FDB00D3AD82 /* stb_image.h */,
+				A49031B12AE0201700D3AD82 /* ImageProcessor.cpp */,
+				A49031B22AE0201700D3AD82 /* ImageProcessor.hpp */,
 			);
 			path = "Operators LRS";
+			sourceTree = "<group>";
+		};
+		A49031B42AE0278F00D3AD82 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A49031B72AE02AA200D3AD82 /* input2.png */,
+				A49031B52AE027AC00D3AD82 /* input.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A49031B82AE02B6E00D3AD82 /* Output images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Output images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49031A92AE01EBF00D3AD82 /* main.cpp in Sources */,
+				A49031B32AE0201700D3AD82 /* ImageProcessor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
